@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@400;700&family=Open+Sans:ital@1&family=Playfair+Display:ital@1&family=Roboto+Slab&family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script&family=Inter:wght@400;700&family=Open+Sans:ital@1&family=Playfair+Display:ital@1&family=Roboto+Slab&family=Ysabeau+SC&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .h1{
+        text-align: center;
+        font-size: 'Ysabeau Infant';
+        color: white;
+    }
+
+    #info {
+        font-size: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-family: 'Ysabeau Infant';
+
+    }
+    
+    #game{
+        text-align: center;
+        color: white;
+        
+    }   
+
+    #SnakeGame{
+        border: 3px solid;
+    }
+
+    #RestartButton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+  
+    }
+
+    #RestartButton:hover {
+        background-color: orange;
+        transition: background-color 0.5s ease;
+    }
+
+    #RestartButton:active {
+        background-color: #ffff;
+        border-color: black;
+        color: black;
+    }   
+
+    #RestartButton:focus {
+        outline: none;
+    }   
+
+    #controls {
+        font-family: 'Ysabeau Infant';
+        color: white;
+        font-size: 28px;
+    }
+    .controls {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+      
+    .controls button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
